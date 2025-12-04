@@ -1,0 +1,84 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.db
+*.sqlite3
+
+# C extensions
+*.so
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+
+# FastAPI / Uvicorn logs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Coverage / Testing
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+.cache/
+pytest_cache/
+
+# MyPy / Pylint / Pyright
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+pyrightconfig.json
+
+# Settings
+*.env
+*.env.*
+!.env.example
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Bytecode / temporary files
+*.tgz
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# SQLite DBs (if generated automatically)
+*.sqlite
+*.sqlite3
+
+# Packaging
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+
+# Pydantic / Cache / Task queues
+__pypackages__/
+celerybeat-schedule
